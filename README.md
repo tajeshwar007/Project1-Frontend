@@ -1,1 +1,1 @@
-A fontend travel booking website with some buttons.
+A responsive fontend travel booking website with some buttons.
