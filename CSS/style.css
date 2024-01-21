@@ -477,15 +477,15 @@ background: #fff;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MEDIA QUERIES>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media (max-width:500px){
+@media (max-width:420px){
    .counts .count-item p
   {
-     font-size: 1.2rem;
+     font-size: 1.6rem;
   }
 
     .counts .count-item span
      {
-        font-size: 1.5rem;
+        font-size: 2rem;
      }
 }
 
@@ -495,7 +495,6 @@ html
 {
     font-size: 50%;
 }
-
 
 .navbar .nav-items .nav-items .logo{
     float: none;
@@ -627,7 +626,7 @@ html{
 
 }
 
-@media (orientation:landscape) and (max-width:900px) {
+@media (orientation:landscape) and (max-width:640px) {
 
 .header-content .lg-heading{
     display: none;
