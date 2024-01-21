@@ -529,9 +529,12 @@ html
 .cta-banner .banner-right{
     padding-top: 1rem;
 }
-.counts .count-items
-.counts p{
-    font-size: 2rem;
+.counts .count-item p{
+    font-size: 1rem;
+}
+.counts .count-item span{
+
+    font-size: 1.6rem;
 }
 .form-wrapper .company-address{
     float: none;
