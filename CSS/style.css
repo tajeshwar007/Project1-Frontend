@@ -496,7 +496,7 @@ html
     font-size: 50%;
 }
 
-.navbar .nav-items .nav-items .logo{
+.navbar .nav-items, .navbar .logo{
     float: none;
     display: block;
     width: 100%;
