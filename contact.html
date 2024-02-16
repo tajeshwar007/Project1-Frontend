@@ -9,7 +9,10 @@
 <title>Travel Website | Contact</title>
 </head>
 <body>
-     
+    <script> function validate(){
+      alert("Your form has been submitted successfully !");
+    } 
+    </script> 
     
 <nav class="navbar bg-dark" >
     <div class="container" >
@@ -44,7 +47,7 @@
   </div>
   <img src="img/company image.jpg" alt="Company Image" srcset="">
     </div>
-    <form action="" class="form" >
+    <form onsubmit="validate()" action="index.html" class="form" >
 <h1 class="lg-heading text-black">Contact Us</h1>
 <p class="text-grey">Let's know your questions, suggestions and concerns by filling out the contact form</p>
 
@@ -66,7 +69,7 @@
 
 </div>
 
-<button type="submit" class="form-btn" >Submit</button>
+<button  type="submit" class="form-btn" >Submit</button>
     </form>
   </div>
 
