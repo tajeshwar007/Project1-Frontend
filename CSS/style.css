@@ -56,11 +56,13 @@ letter-spacing: 0.1em;
     color: #f4f4f4;
 }
 .navbar a{
+    
     padding-bottom: 0.4rem;
 }
 
 
 .navbar a:hover{
+    
    border-bottom: 1px solid white;
 }
 
@@ -113,6 +115,7 @@ color: #333;
 }
 
 .btn-primary:hover{
+    transition: all 0.3s ease-in-out;
    background: red;
   color: white;
 }
@@ -121,6 +124,7 @@ color: #333;
     border-radius: 1.5em;
 }
 .btn-secondary:hover{
+    transition: all 0.3s ease-in-out;
     background:red;
   color: white;
   
@@ -405,7 +409,7 @@ background: #fff;
 
 
 .form-wrapper .address-group{
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 } 
 
 .form-wrapper .company-address img{
@@ -450,7 +454,7 @@ background: #fff;
     width: 100%;
 }
 .form-wrapper .form .form-group{
-    margin-bottom:1.2rem;
+    margin-bottom:3.2rem;
 }
 .form-wrapper .form label::after{
     content: "*";
@@ -465,15 +469,20 @@ background: #fff;
 .form-btn{
     display:block;
     font-size: 1.8rem;
-    background:red;
+    background:white;
     outline: none;
     text-transform: uppercase;
-    margin: auto;
+    margin:auto;
     padding: 0.5rem 3rem;
-    color: #fff;
+    color:black;
     border-radius: 2em;
     cursor: pointer;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.444);
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.444); */
+}
+.form-btn:hover{
+    transition: all 0.3s ease-in-out;
+    background:red;
+    color:white;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MEDIA QUERIES>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -642,3 +651,8 @@ html{
 
 }
 
+@media (min-width:769px) and (max-width:975px){
+    .form-wrapper .form .form-group{
+        margin-bottom:2.2rem;
+    }
+}
